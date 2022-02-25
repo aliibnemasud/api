@@ -12,7 +12,7 @@ const buddies = data => {
     for (const buddy of buddiesc){        
         const p = document.createElement('p');
         p.innerText = buddy.email;
-        rBuddies.appendChild(p);    
+        rBuddies.appendChild(p);  
 
     }
 }

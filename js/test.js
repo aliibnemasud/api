@@ -12,8 +12,21 @@
 // // const q=p.join( n=> Math.pow(n, 3));
 // // console.log(q);
 
-const info = { name: "", phoneNumber: null };
+/* const info = { name: "", phoneNumber: null };
 console.log(JSON.stringify(info));
 
 const array = { hobbies: ["dancing", "singing", "acting"] };
-console.log(JSON.stringify(array));
+console.log(JSON.stringify(array)); */
+
+// const isTrue='false'; 
+// if(!isTrue){
+// console.log('hello');
+// } else {
+// console.log('world'); }
+
+const obj ={a:1, b:7, c:3, length:2};
+console.log(Object.keys(obj).length);
+
+const getGirlFriend= (name = "chokina")=>"name"; console.log(getGirlFriend());
+
+
